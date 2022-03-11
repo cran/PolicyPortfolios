@@ -33,9 +33,9 @@ NULL
 #' When using the dataset, please cite:
 #'
 #' Fernández-i-Marín, X., Knill, C. & Steinebach, Y. (2021). Studying Policy Design Quality in Comparative Perspective. _American Political Science Review_, online first.
-#' 
+#'
 #' Knill, C., Schulze, K. & Tosun, J. (2012). Regulatory Policy Outputs and Impacts. Exploring a Complex Relationship. _Regulation & Governance_, 5(4), 427-444. doi:10.1111/j.1748-5991.2012.01150.x.
-#' 
+#'
 #'
 #' @name consensus
 #' @docType data
@@ -58,9 +58,9 @@ NULL
 #' When using the dataset, please cite:
 #'
 #' Fernández-i-Marín, X., Knill, C. & Steinebach, Y. (2021). Studying Policy Design Quality in Comparative Perspective. _American Political Science Review_, online first.
-#' 
+#'
 #' Knill, C., Schulze, K. & Tosun, J. (2012). Regulatory Policy Outputs and Impacts. Exploring a Complex Relationship. _Regulation & Governance_, 5(4), 427-444. doi:10.1111/j.1748-5991.2012.01150.x.
-#' 
+#'
 #'
 #' @name consensus.instruments
 #' @docType data
@@ -83,16 +83,16 @@ NULL
 #' When using the dataset, please cite:
 #'
 #' Fernández-i-Marín, X., Knill, C. & Steinebach, Y. (2021). Studying Policy Design Quality in Comparative Perspective. _American Political Science Review_, online first.
-#' 
+#'
 #' Knill, C., Schulze, K. & Tosun, J. (2012). Regulatory Policy Outputs and Impacts. Exploring a Complex Relationship. _Regulation & Governance_, 5(4), 427-444. doi:10.1111/j.1748-5991.2012.01150.x.
-#' 
+#'
 #'
 #' @name consensus.targets
 #' @docType data
 #' @keywords datasets
 #' @usage data(consensus.targets)
 #' @format A data frame (tibble) containing the characteristics of Targets, namely the Subsector and the internal id in the original coding manual.
-#' @seealso \code{\link{consensus}} for the full dataset and \code{\link{consensus.instruments}} for meta data about Instrument id and instrument type. 
+#' @seealso \code{\link{consensus}} for the full dataset and \code{\link{consensus.instruments}} for meta data about Instrument id and instrument type.
 #' @references Fernández-i-Marín, X., Knill, C. & Steinebach, Y. (2021). Studying Policy Design Quality in Comparative Perspective. _American Political Science Review_, online first.
 #' @references Knill, C., Schulze, K. & Tosun, J. (2012). Regulatory Policy Outputs and Impacts. Exploring a Complex Relationship. _Regulation & Governance_, 5(4), 427-444. doi:10.1111/j.1748-5991.2012.01150.x.
 #' @source Consensus research project (217239): https://cordis.europa.eu/project/id/217239
