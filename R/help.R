@@ -14,7 +14,8 @@
 #' @importFrom ineq Gini
 #' @importFrom mgcv uniquecombs
 #' @importFrom reshape2 acast
-#' @docType package
+#' @keywords internal
+"_PACKAGE"
 #' @name PolicyPortfolios
 #' @aliases PolicyPortfolios policyportfolios
 NULL

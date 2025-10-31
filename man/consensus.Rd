@@ -5,7 +5,7 @@
 \alias{consensus}
 \title{Policy portfolios for the dataset of the CONSENSUS research project.}
 \format{
-A data frame (tibble) containing the coverage of state intervention in a specific policy space (presence = 1 or absence = 0) for the CONSENSUS research project (). It covers 23 countries in two sectors (Environmental, with 49 Targets and 11 Instruments; and Social, with X Targets and X Instruments) between 1976 and 2005.
+A data frame (tibble) containing the coverage of state intervention in a specific policy space (presence = 1 or absence = 0) for the CONSENSUS research project. It covers 23 countries in two sectors (Environmental, with 49 Targets and 11 Instruments; and Social, with 19 Targets and 6 Instruments) between 1976 and 2005.
 }
 \source{
 Consensus research project (217239): https://cordis.europa.eu/project/id/217239

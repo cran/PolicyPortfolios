@@ -1,12 +1,12 @@
 ## ----echo=FALSE, message=FALSE, warning=FALSE---------------------------------
 library(PolicyPortfolios)
 
-## ---- message = FALSE, warning = FALSE----------------------------------------
+## ----message = FALSE, warning = FALSE-----------------------------------------
 library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-## ---- message = FALSE, warning = FALSE----------------------------------------
+## ----message = FALSE, warning = FALSE-----------------------------------------
 library(PolicyPortfolios)
 data(P.energy)
 P.energy
@@ -25,23 +25,23 @@ levels(P.education$Target)
 levels(P.education$Instrument)
 
 ## ----eval = FALSE, echo = TRUE------------------------------------------------
-#  spreadsheet <- read.table(...)
-#  d <- pp_clean(spreadsheet,
-#                Sector = "Environmental",
-#                Year.name = "Year.Adopt",
-#                coding.category.name = "Coding.category",
-#                Instrument.name = "Instrument.No.",
-#                Target.name = "Item.No.")
-#  
-#  pp_complete()
+# spreadsheet <- read.table(...)
+# d <- pp_clean(spreadsheet,
+#               Sector = "Environmental",
+#               Year.name = "Year.Adopt",
+#               coding.category.name = "Coding.category",
+#               Instrument.name = "Instrument.No.",
+#               Target.name = "Item.No.")
+# 
+# pp_complete()
 
 ## ----eval = FALSE, echo = TRUE------------------------------------------------
-#  dc <- pp_complete(d,
-#                    Instrument.set = full.factor.of.potential.instruments,
-#                    Target.set = full.factor.of.potential.targets)
+# dc <- pp_complete(d,
+#                   Instrument.set = full.factor.of.potential.instruments,
+#                   Target.set = full.factor.of.potential.targets)
 
 ## ----echo = TRUE, eval = FALSE------------------------------------------------
-#  pp_measures(P.energy)
+# pp_measures(P.energy)
 
 ## ----echo = FALSE, eval = TRUE, size = 'footnotesize'-------------------------
 knitr::kable(pp_measures(P.energy) %>% slice(1:15))
@@ -49,7 +49,7 @@ knitr::kable(pp_measures(P.energy) %>% slice(1:15))
 ## -----------------------------------------------------------------------------
 pp_measures(P.energy, id = list(Country = "Borduria", Year = 2010:2021))
 
-## ---- fig.width = 8, fig.height = 4, fig.cap = 'Temporal evolution of the size of portfolios, by country.'----
+## ----fig.width = 8, fig.height = 4, fig.cap = 'Temporal evolution of the size of portfolios, by country.'----
 pp_measures(P.energy) %>%
   # Use only a single measure of interest
   filter(Measure == "Size") %>%
@@ -90,7 +90,7 @@ pp_plot(P.education,
         subtitle = FALSE, caption = NULL)
 
 ## ----eval = FALSE, echo = TRUE------------------------------------------------
-#  pp_report(P.energy)
+# pp_report(P.energy)
 
 ## -----------------------------------------------------------------------------
 A <- pp_array(P.energy)
@@ -102,4 +102,9 @@ A <- pp_array(P.energy)
 # 15 is Instrument
 # 25 is Target
 dim(A)
+
+## ----eval = FALSE, echo = TRUE------------------------------------------------
+# spreadsheet <- read.table(...)
+# d.setting <- pp_clean(spreadsheet,
+#                       setting.direction = TRUE)
 

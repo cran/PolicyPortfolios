@@ -4,6 +4,7 @@ if (base::getRversion() >= "2.15.1") {
     "Country", "Sector", "Year", "Instrument", "Target", "covered",  # from the tidy dataset
     "Date", # from the tidy dataset
     "direction", "cc", # from pp_clean()
+    "Coding category", "Direction", "nChanges", "Setting", # from pp <- clean
     "Measure", "Measure.label", # from pp_measures()
     "comparative", "dev_type_html", # from pp_report()
     "pdf", "dev.off", # from grDevices, for pp_plot()

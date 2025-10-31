@@ -1,3 +1,34 @@
+Version 0.5
+------------------------------
+
+MAJOR CHANGES
+
+  - New dataset accupol.v1
+
+  - Possibility to clean years in pp_similarity().
+
+
+MINOR CHANGES
+
+  - Improvement in the documentation
+
+  - Improvement in the verbosity and information whes using pp_clean().
+
+
+Version 0.4.
+------------------------------
+
+MAJOR CHANGES
+
+  - New argument in pp-clean that allows to calculate setting and direction.
+
+
+MINOR CHANGES
+
+  - Solve a bug that does not produce burden when the matrix is missing.
+
+
+
 Version 0.3
 ------------------------------
 
@@ -22,4 +53,4 @@ MINOR CHANGES
 Version 0.2.2
 ------------------------------
 
-Real initial production version with most of the features present.
+  - Real initial production version with most of the features present.

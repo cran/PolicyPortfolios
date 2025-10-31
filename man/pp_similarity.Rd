@@ -11,7 +11,7 @@ pp_similarity(D, id = NULL, method = "all", return_all = TRUE)
 
 \item{id}{A list with up to two elements, namely "Country", and "Year" indicating the specific identification characteristics of the portfolio(s) that must be processed. Defaults to NULL to process all portfolios.}
 
-\item{method}{A character vector containing the indices of similarity requested. Defaults to "all". The implemented indices of binary similarity are "jaccard" (), "}
+\item{method}{A character vector containing the indices of similarity requested. Defaults to "all". The implemented indices of binary similarity are "Jaccard", "Hamming" (Hamming distance), "Dice" (Sorensen & Dice), "Overlap" (Szymkiewicz and Simpson) and "Rand" (or Simple Matching Coefficient).}
 
 \item{return_all}{Logical indicating whether all possible combinations (countries and years of origin and destination) must be returned or only when they are different. Defaults to TRUE.}
 }

@@ -51,7 +51,7 @@ pp_plot <- function(D, id = NULL,
     theme_minimal() +
     ggtitle(do.call("paste", c(id.label, sep = " : "))) +
     theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) +
-    guides(fill = FALSE)
+    guides(fill = "none")
   # Add a caption
   if (!is.null(caption)) {
     f <- f + labs(caption = caption)
